@@ -19,7 +19,7 @@ const Form = () => {
             <div class="flex justify-between py-6 px-10 ">
               <div class="item-detail ">
                 <div>
-                  <img className="car" src="../../public/car1.png" alt="" />
+                  <img className="car" src="../../car.png" alt="" />
                 </div>
                 <div>
                   <h2 className="sedan">Sedan Car</h2>
