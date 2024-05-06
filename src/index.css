@@ -1,0 +1,137 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color:#FEF8F7;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.main-form{
+  border-radius: 10px;
+}
+
+hr{
+  background-color: rgb(225, 225, 225);
+  padding: .2px;
+}
+
+/* first div */
+.arrow{
+  color: black;
+}
+.rental{
+  font-size: 25px;
+  color: black;
+}
+.trip{
+  font-size: 17px;
+  color: black;
+
+}
+.sedan{
+  color: black;
+}
+
+.car{
+  width: 60px;
+  height: auto;
+}
+.item-detail{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.devider{
+  padding: 4px;
+  background-color: #F7F7F7;
+  width: 600px;
+}
+.pickup{
+  color: black;
+}
+.dt{
+  color: black;
+}
+.pen{
+  color: rgb(114, 114, 255);
+  border-radius: 50%;
+  border: none;
+  padding: 7px;
+  background-color: #E4F0FB;
+}
+.plus{
+  color: rgb(117, 117, 117);
+  border-radius: 50%;
+  border: 1px solid rgb(157, 157, 157);
+  padding: 5px;
+  background-color: #e3e3e3;
+}
+
+
+/* second div----- */
+.trip-logo {
+  color: white;
+  background-color: rgb(255, 255, 255);
+}
+
+.pick-drop{
+  margin-top: -20px;
+}
+.vertile{
+  background-color: rgb(134, 134, 134);
+  height: 50px;
+  width: 2px;
+   
+}
+.search{
+background-color: white;
+
+}
+
+.messege{
+  width: 520px;
+  height: 100px;
+  background-color: rgb(227, 227, 227);
+  padding: 10px;
+  color: black;
+  border-radius: 15px;
+}
+
+.form-btn{
+  background-color: #F48072;
+  color: white;
+  font-size: 17px;
+  width: 520px;
+  border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
