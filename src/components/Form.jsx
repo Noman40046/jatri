@@ -6,7 +6,7 @@ const Form = () => {
       <div class="flex justify-center items-center h-screen">
         <div class=" main-form w-[600px] shadow-md  bg-white">
           <div class="bg-white pb-5 pt-5 ">
-            <div class="bg-white mb-3 px-10 ">
+            <div class="header-part bg-white mb-3 px-10 ">
               <a href="#">
                 <span class="arrow material-symbols-outlined">arrow_back</span>
               </a>
@@ -16,7 +16,7 @@ const Form = () => {
 
             <hr />
 
-            <div class="flex justify-between py-6 px-10 ">
+            <div class="car-brand flex justify-between py-6 px-10 ">
               <div class="item-detail ">
                 <div>
                   <img className="car" src="../../car.png" alt="" />
@@ -35,7 +35,7 @@ const Form = () => {
 
             <div className="devider"></div>
 
-            <div class="flex gap-4 items-center px-10  py-3">
+            <div class="destination flex gap-4 items-center px-10  py-3">
               <div class="pick-drop flex flex-col gap-3 items-center">
                 <span class="pickup-logo material-symbols-outlined">
                   radio_button_unchecked
@@ -109,7 +109,7 @@ const Form = () => {
 
             <div className="devider"></div>
 
-            <div class="flex justify-between items-center px-10  py-6">
+            <div class="date-time flex justify-between items-center px-10  py-6">
               <div class="item-detail ">
                 <div className="flex gap-2">
                   <div>
@@ -135,7 +135,7 @@ const Form = () => {
 
             <hr />
 
-            <div class="flex justify-between items-center px-10  py-6">
+            <div class="date-time flex justify-between items-center px-10  py-6">
               <div class="item-detail ">
                 <div className="flex gap-2">
                   <div>
@@ -150,7 +150,7 @@ const Form = () => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div >
                 <input
                   type="time"
                   placeholder="3.44 am"
@@ -161,7 +161,7 @@ const Form = () => {
 
             <hr />
 
-            <div class="flex justify-between items-center px-10  py-6">
+            <div class="date-time flex justify-between items-center px-10  py-6">
               <div class="item-detail ">
                 <div className="flex gap-2">
                   <div>
@@ -193,7 +193,7 @@ const Form = () => {
 
             <div
               id="hiddenDiv1"
-              class="flex hidden justify-between items-center px-10  py-6"
+              class="flex hidden date-time justify-between items-center px-10  py-6"
             >
               <div class="item-detail ">
                 <div className="flex gap-2">
@@ -222,7 +222,7 @@ const Form = () => {
 
             <div
               id="hiddenDiv2"
-              class="flex hidden justify-between items-center px-10  py-6"
+              class="flex hidden date-time justify-between items-center px-10  py-6"
             >
               <div class="item-detail ">
                 <div className="flex gap-2">
