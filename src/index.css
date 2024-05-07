@@ -246,10 +246,10 @@ background-color: white;
   .dtt{
     color: rgb(255, 255, 255);
     border: none;
-    background-color: #F48072;
     font-weight: 400;
     width: 145px;
     font-size: 12px;
+    background-color: #2095F3;
   }
   .messege {
     width: 340px;
@@ -259,7 +259,6 @@ background-color: white;
     width: 340px;
   }
 }
-
 
 
 
