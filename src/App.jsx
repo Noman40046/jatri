@@ -41,11 +41,6 @@ $(document).ready(function(){
     });
   });
 
-
-
-
-
-
 const App = () => {
   return (
     <div>

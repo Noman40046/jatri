@@ -137,11 +137,6 @@ hr{
 
 
 
-
-
-
-
-
 .pick-drop{
   margin-top: -20px;
 }
@@ -169,11 +164,9 @@ background-color: white;
 
 }
 
+
 /* responsive------ */
-
-
-@media (max-width: 300px) {
-
+@media (max-width: 360px) {
 
   :root{
     background-color:#FEF8F7;
@@ -192,6 +185,16 @@ background-color: white;
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
+  }
+
+  .rental{
+    color: rgb(255, 255, 255);
+  }
+  .trip{
+    color: rgb(255, 255, 255);
+  }
+  .arrow {
+    color: rgb(255, 255, 255);
   }
 
   .car-brand{
