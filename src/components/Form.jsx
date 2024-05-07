@@ -19,17 +19,138 @@ const Form = () => {
             <div class="car-brand flex justify-between py-6 px-10 ">
               <div class="item-detail ">
                 <div>
-                  <img className="car" src="../../car.png" alt="" />
+                  <img className="car" src="../../car1.png" alt="" />
                 </div>
                 <div>
                   <h2 className="sedan">Sedan Car</h2>
-                  <p>4 Seats</p>
+                  <p className="car-seat">4 Seats</p>
                 </div>
               </div>
               <div>
-                <a href="#">
+                <a
+                  href="#"
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
                   <span class="pen material-symbols-outlined">edit</span>
                 </a>
+                {/*modal ------*/}
+                <dialog id="my_modal_3" className="modal main-modal">
+                  <div className="modal-box bg-white text-black">
+                    <form method="dialog">
+                      <h3 className="select-vechiel">Select Vehicl Type</h3>
+                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        ✕
+                      </button>
+                    </form>
+                    <div className="modal-body p-2 ">
+                      {/* vehicl-number-------- */}
+                      <div className="form-control">
+                        <label className="label cursor-pointer ">
+
+                          <div class="item-detail ">
+                            <div>
+                              <img className="car" src="../../car1.png" alt="" />
+                            </div>
+                            <div>
+                              <h2 className="sedan">Sedan Car</h2>
+                              <p className="car-seat">4 Seats</p>
+                            </div>
+                          </div>
+
+                          <input
+                            type="radio"
+                            name="radio-10"
+                            className="radio checked:bg-red-500 border-gray-400"
+                            checked
+                          />
+                        </label>
+                      </div>
+                      {/* vehicl-number-------- */}
+                      <div className="form-control">
+                        <label className="label cursor-pointer ">
+                        <div class="item-detail ">
+                            <div>
+                              <img className="car" src="../../car2.png" alt="" />
+                            </div>
+                            <div>
+                              <h2 className="sedan">Premium Sedan</h2>
+                              <p className="car-seat">4 Seats</p>
+                            </div>
+                          </div>
+                          <input
+                            type="radio"
+                            name="radio-10"
+                            className="radio checked:bg-red-500 border-gray-400"
+                            checked
+                          />
+                        </label>
+                      </div>
+                      {/* vehicl-number-------- */}
+                      <div className="form-control">
+                        <label className="label cursor-pointer ">
+                        <div class="item-detail ">
+                            <div>
+                              <img className="car" src="../../car3.png" alt="" />
+                            </div>
+                            <div>
+                              <h2 className="sedan">Mini Microbus</h2>
+                              <p className="car-seat">4 Seats</p>
+                            </div>
+                          </div>
+                          <input
+                            type="radio"
+                            name="radio-10"
+                            className="radio checked:bg-red-500 border-gray-400"
+                            checked
+                          />
+                        </label>
+                      </div>
+                      {/* vehicl-number-------- */}
+                      <div className="form-control">
+                        <label className="label cursor-pointer ">
+                        <div class="item-detail ">
+                            <div>
+                              <img className="car" src="../../car4.png" alt="" />
+                            </div>
+                            <div>
+                              <h2 className="sedan">Microbus</h2>
+                              <p className="car-seat">4 Seats</p>
+                            </div>
+                          </div>
+                          <input
+                            type="radio"
+                            name="radio-10"
+                            className="radio checked:bg-red-500 border-gray-400"
+                            checked
+                          />
+                        </label>
+                      </div>
+                      {/* vehicl-number-------- */}
+                      <div className="form-control">
+                        <label className="label cursor-pointer ">
+                        <div class="item-detail ">
+                            <div>
+                              <img className="car" src="../../car5.png" alt="" />
+                            </div>
+                            <div>
+                              <h2 className="sedan">Minibus</h2>
+                              <p className="car-seat">4 Seats</p>
+                            </div>
+                          </div>
+                          <input
+                            type="radio"
+                            name="radio-10"
+                            className="radio checked:bg-red-500 border-gray-400"
+                            checked
+                          />
+                        </label>
+                      </div>
+
+                    </div>
+                  </div>
+                </dialog>
               </div>
             </div>
 
@@ -72,7 +193,7 @@ const Form = () => {
                     className="w-[30px] h-[30px] absolute -right-[10px] -top-[13px] transition-all ease-in-out cursor-pointer "
                     alt
                     data-v-a0ca3c8a
-                  /> 
+                  />
                 </div>
 
                 {/*  */}
@@ -148,7 +269,7 @@ const Form = () => {
                   </div>
                 </div>
               </div>
-              <div >
+              <div>
                 <input
                   type="time"
                   placeholder="3.44 am"

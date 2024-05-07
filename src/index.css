@@ -19,6 +19,10 @@ hr{
 }
 
 /* first div */
+
+.select-vechiel{
+  margin-top: -10px;
+}
 .arrow{
   color: black;
 }
@@ -33,8 +37,11 @@ hr{
 }
 .sedan{
   color: black;
+  font-weight: 500;
 }
-
+.car-seat{
+  color: rgb(137, 137, 137);
+}
 .car{
   width: 60px;
   height: auto;
@@ -162,10 +169,12 @@ background-color: white;
   width: 520px;
   border-radius: 25px;
 }
-
+.form-btn:hover{
+  background-color: #F48072;
+}
 
 /* responsive------ */
-@media (max-width: 360px) {
+@media (max-width: 800px) {
 
   :root{
     background-color:#FEF8F7;
