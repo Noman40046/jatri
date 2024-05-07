@@ -180,7 +180,7 @@ const Form = () => {
                   <h2 className="pickup">Pickup Point</h2>
                   <input
                     placeholder="Search pickup location"
-                    className="search"
+                    className="search focus:outline-none"
                     type="search"
                   />
                 </div>
@@ -200,8 +200,8 @@ const Form = () => {
                 <div id="hiddenDiv5" className="hidden">
                   <h2 className="pickup ">Via Point</h2>
                   <input
-                    placeholder="Search via location"
-                    className="search"
+                    placeholder="Search via location "
+                    className="search focus:outline-none"
                     type="search"
                   />
                 </div>
@@ -219,7 +219,7 @@ const Form = () => {
                   <h2 className="pickup">Drop Off Point</h2>
                   <input
                     placeholder="Search drop off location"
-                    className="search"
+                    className="search focus:outline-none"
                     type="search"
                   />
                 </div>
