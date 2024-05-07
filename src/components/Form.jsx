@@ -73,8 +73,6 @@ const Form = () => {
                     alt
                     data-v-a0ca3c8a
                   /> 
-
-
                 </div>
 
                 {/*  */}

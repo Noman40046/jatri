@@ -161,7 +161,6 @@ background-color: white;
   font-size: 17px;
   width: 520px;
   border-radius: 25px;
-
 }
 
 
@@ -173,7 +172,9 @@ background-color: white;
     margin-top: 100px;
     margin-bottom: 100px;
   }
-  
+  .devider {
+    width: 360px;
+  }
 
   .main-form{
     width: 360px;
