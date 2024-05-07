@@ -37,9 +37,21 @@ const Form = () => {
 
             <div class="flex gap-4 items-center px-10  py-3">
               <div class="pick-drop flex flex-col gap-3 items-center">
-                <div className="badge badge-error badge-sm"></div>
+                <span class="pickup-logo material-symbols-outlined">
+                  radio_button_unchecked
+                </span>
                 <div className="vertile"></div>
-                <div className="badge badge-error badge-sm"></div>
+                {/*  */}
+                <span
+                  id="hiddenDiv3"
+                  className="hidden pickup-logo2 material-symbols-outlined"
+                >
+                  radio_button_unchecked
+                </span>
+                <div id="hiddenDiv4" className="hidden vertile"></div>
+                {/*  */}
+
+                <span class="drop-logo material-symbols-outlined">stop</span>
               </div>
 
               <div className="flex flex-col gap-5 me-20">
@@ -53,9 +65,36 @@ const Form = () => {
                 </div>
 
                 <div className="relative" data-v-a0ca3c8a>
-                  <hr class="border-dashed mt-[4px] w-[470px]"/>
-                  <img src="https://rental.jatri.co/_nuxt/add-via-point.68721e6d.svg" className="w-[30px] h-[30px] absolute -right-[10px] -top-[13px] transition-all ease-in-out cursor-pointer" alt data-v-a0ca3c8a />
+                  <hr class="border-dashed mt-[4px] w-[470px]" />
+                  <img
+                    id="toggleIcon"
+                    src="https://rental.jatri.co/_nuxt/add-via-point.68721e6d.svg"
+                    className="w-[30px] h-[30px] absolute -right-[10px] -top-[13px] transition-all ease-in-out cursor-pointer "
+                    alt
+                    data-v-a0ca3c8a
+                  /> 
+
+
                 </div>
+
+                {/*  */}
+                <div id="hiddenDiv5" className="hidden">
+                  <h2 className="pickup ">Via Point</h2>
+                  <input
+                    placeholder="Search via location"
+                    className="search"
+                    type="search"
+                  />
+                </div>
+
+                <div
+                  id="hiddenDiv6"
+                  className="hidden relative"
+                  data-v-a0ca3c8a
+                >
+                  <hr class="border-dashed mt-[4px] w-[470px]" />
+                </div>
+                {/*  */}
 
                 <div>
                   <h2 className="pickup">Drop Off Point</h2>
@@ -75,7 +114,7 @@ const Form = () => {
                 <div className="flex gap-2">
                   <div>
                     <a href="#">
-                      <span class="material-symbols-outlined">
+                      <span class="schedule-logo material-symbols-outlined">
                         calendar_month
                       </span>
                     </a>
@@ -89,7 +128,7 @@ const Form = () => {
                 <input
                   type="date"
                   placeholder="Type here"
-                  className="input input-bordered bg-white  w-full max-w-xs "
+                  className="dtt input  w-full max-w-xs "
                 />
               </div>
             </div>
@@ -101,7 +140,9 @@ const Form = () => {
                 <div className="flex gap-2">
                   <div>
                     <a href="#">
-                      <span class="material-symbols-outlined">schedule</span>
+                      <span class="schedule-logo material-symbols-outlined">
+                        schedule
+                      </span>
                     </a>
                   </div>
                   <div>
@@ -113,7 +154,7 @@ const Form = () => {
                 <input
                   type="time"
                   placeholder="3.44 am"
-                  className="input input-bordered bg-white  w-full max-w-xs "
+                  className="dtt dtt2 input  bg-white  w-full max-w-xs "
                 />
               </div>
             </div>
@@ -125,8 +166,8 @@ const Form = () => {
                 <div className="flex gap-2">
                   <div>
                     <a href="#">
-                      <span class="material-symbols-outlined">
-                        connecting_airports
+                      <span class=" schedule-logo2 material-symbols-outlined">
+                        travel
                       </span>
                     </a>
                   </div>
@@ -136,7 +177,73 @@ const Form = () => {
                 </div>
               </div>
               <div>
-                <input type="checkbox" className="toggle trip-logo bg-white " />
+                <label for="toggle" class="flex items-center cursor-pointer">
+                  <div class="relative">
+                    <input id="toggle" type="checkbox" class="hidden" />
+
+                    <div class="toggle-line w-10 h-5 bg-gray-400 rounded-full shadow-inner"></div>
+
+                    <div class="toggle-dot absolute w-5 h-5 bg-white rounded-full shadow inset-y-0 left-0"></div>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <hr />
+
+            <div
+              id="hiddenDiv1"
+              class="flex hidden justify-between items-center px-10  py-6"
+            >
+              <div class="item-detail ">
+                <div className="flex gap-2">
+                  <div>
+                    <a href="#">
+                      <span class="schedule-logo material-symbols-outlined">
+                        calendar_month
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                    <h1 className="dt"> Select Round Trip Date</h1>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <input
+                  type="date"
+                  placeholder="Type here"
+                  className="dtt input  w-full max-w-xs "
+                />
+              </div>
+            </div>
+
+            <hr />
+
+            <div
+              id="hiddenDiv2"
+              class="flex hidden justify-between items-center px-10  py-6"
+            >
+              <div class="item-detail ">
+                <div className="flex gap-2">
+                  <div>
+                    <a href="#">
+                      <span class="schedule-logo material-symbols-outlined">
+                        schedule
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                    <h1 className="dt">Select Time</h1>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <input
+                  type="time"
+                  placeholder="3.44 am"
+                  className="dtt dtt2 input  bg-white  w-full max-w-xs "
+                />
               </div>
             </div>
 
@@ -146,7 +253,7 @@ const Form = () => {
               <div class="item-detail ">
                 <form>
                   <textarea
-                  className="messege"
+                    className="messege"
                     type="text"
                     maxlength="100"
                     minlength="10"

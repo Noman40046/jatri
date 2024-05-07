@@ -5,8 +5,8 @@
 
 :root{
   background-color:#FEF8F7;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 210px;
+  margin-bottom: 210px;
 }
 
 .main-form{
@@ -52,9 +52,11 @@ hr{
 }
 .pickup{
   color: black;
+  font-weight: 500;
 }
 .dt{
   color: black;
+  font-weight: 500;
 }
 .pen{
   color: rgb(114, 114, 255);
@@ -70,23 +72,80 @@ hr{
   padding: 5px;
   background-color: #e3e3e3;
 }
+.schedule-logo{
+  color: black;
+  font-size: 30px;
+}
+.schedule-logo2{
+  border: 2px solid black;
+  border-radius: 50%;
+  color: black;
+  font-size: 22px;
+}
+.pickup-logo{
+  background-color: #FF5861;
+  border-radius: 50%;
+  color:#FF5861 ;
+  font-size: 17px;
+}
+.pickup-logo2{
+  border-radius: 50%;
+  color:#FF5861 ;
+  font-size: 17px;
+  font-weight: 600;
+}
+.vertile{
+  background-color: rgb(176, 176, 176);
+  height: 50px;
+  width: 2px;
+}
+.drop-logo{
+  background-color: #1E88E5;
+  color: #1E88E5;
+  font-size: 17px;
+}
 
+.rotate-left {
+  transform: rotate(-90deg);
+}
 
 /* second div----- */
-.trip-logo {
-  color: white;
-  background-color: rgb(255, 255, 255);
+
+.dtt{
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: #F48072;
+  font-weight: 600;
 }
+.dtt2{
+  width: 173px;
+}
+
+
+.toggle-line {
+  transition: all 0.3s ease;
+}
+
+.toggle-line2 {
+  background-color: #F04935;
+}
+
+.toggle-dot {
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
 
 .pick-drop{
   margin-top: -20px;
 }
-.vertile{
-  background-color: rgb(134, 134, 134);
-  height: 50px;
-  width: 2px;
-   
-}
+
 .search{
 background-color: white;
 
